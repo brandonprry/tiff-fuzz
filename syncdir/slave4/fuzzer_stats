@@ -1,0 +1,27 @@
+start_time        : 1507751416
+last_update       : 1508544537
+fuzzer_pid        : 1877
+cycles_done       : 387
+execs_done        : 135227025
+execs_per_sec     : 191.51
+paths_total       : 3222
+paths_favored     : 252
+paths_found       : 1134
+paths_imported    : 2040
+max_depth         : 7
+cur_path          : 1121
+pending_favs      : 0
+pending_total     : 1
+variable_paths    : 0
+stability         : 100.00%
+bitmap_cvg        : 8.22%
+unique_crashes    : 0
+unique_hangs      : 3
+last_path         : 1508543758
+last_crash        : 0
+last_hang         : 1508156939
+execs_since_crash : 135227025
+exec_timeout      : 60
+afl_banner        : slave4
+afl_version       : 2.51b
+command_line      : ../afl-2.51b/afl-fuzz -i new_tests/ -o syncdir -m none -S slave4 -- ../FFmpeg-master/ffmpeg -f tiff_pipe -i @@
